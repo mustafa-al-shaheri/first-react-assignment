@@ -9,7 +9,7 @@ class App extends React.Component {
       <header className="App-header">
         <div className="cont">
         <div className="flex">
-        <Price price={'$29'} permonth={'Per Month'} li1={'256 MB memory'} li2={'ultimate baefas'} li3={'10 GB Amount of Speace'}btntext={'PURCHASE'}
+        <Price price={'$29'} permonth={'Per Month'} li1={'256 MB memory'} li2={'ultimate baefas'} li3={'10 GB Amount of Speace'} btntext={'PURCHASE'}
 
         />
         </div>
@@ -18,6 +18,8 @@ class App extends React.Component {
         </div>
         <div className="flex">
         <Price price={'$99'} permonth={'Per Month'} li1={'1024 MB memory'} li2={'ultimate baefas'} li3={'100 GB Amount of Speace'} btntext={'PURCHASE'}/>
+
+        <Price />
         </div>
         </div>
       </header>

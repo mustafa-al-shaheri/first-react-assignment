@@ -19,3 +19,10 @@ export default class Price extends Component{
     }
 }
 
+Price.defaultProps = {
+    price: "NoPrice",
+    permonth: "Noting",
+    li1: "Nothing",
+    li2: "nothing",
+    li3:"nothing"
+  };
